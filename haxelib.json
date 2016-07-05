@@ -1,0 +1,16 @@
+{
+    "description": "Simple globally imported trace<Color> statements. E.g. traceRed("...");", 
+    "license": "BSD", 
+    "tags": [
+        "trace", 
+        "CLI", 
+    ], 
+    "url": "https://github.com/dionjwa/hx-color-trace", 
+    "classPath": "src", 
+    "contributors": [
+        "dionjwa"
+    ], 
+    "releasenote": "Initial release", 
+    "version": "0.0.1", 
+    "name": "hx-color-trace"
+}
