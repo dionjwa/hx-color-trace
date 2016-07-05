@@ -3,7 +3,7 @@
     "license": "BSD", 
     "tags": [
         "trace", 
-        "CLI", 
+        "CLI"
     ], 
     "url": "https://github.com/dionjwa/hx-color-trace", 
     "classPath": "src", 
