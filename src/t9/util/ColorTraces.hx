@@ -10,32 +10,32 @@ class ColorTraces
 	inline static var CYAN="\033[0;36m";
 	inline static var NC="\033[0m";//No Color
 
-	inline public static function traceRed(s :String)
+	inline public static function traceRed(s :Dynamic)
 	{
 		trace('${RED}${s}${NC}');
 	}
 
-	inline public static function traceGreen(s :String)
+	inline public static function traceGreen(s :Dynamic)
 	{
 		trace('${GREEN}${s}${NC}');
 	}
 
-	inline public static function traceYellow(s :String)
+	inline public static function traceYellow(s :Dynamic)
 	{
 		trace('${YELLOW}${s}${NC}');
 	}
 
-	inline public static function traceBlue(s :String)
+	inline public static function traceBlue(s :Dynamic)
 	{
 		trace('${BLUE}${s}${NC}');
 	}
 
-	inline public static function traceMagenta(s :String)
+	inline public static function traceMagenta(s :Dynamic)
 	{
 		trace('${MAGENTA}${s}${NC}');
 	}
 
-	inline public static function traceCyan(s :String)
+	inline public static function traceCyan(s :Dynamic)
 	{
 		trace('${CYAN}${s}${NC}');
 	}
