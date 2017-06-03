@@ -11,6 +11,6 @@
         "dionjwa"
     ],
     "releasenote": "Add missing haxe.PosInfos",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "name": "hx-color-trace"
 }

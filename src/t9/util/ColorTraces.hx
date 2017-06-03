@@ -44,31 +44,31 @@ class ColorTraces
 
 	inline public static function traceRed(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(red(s), infos);
+		haxe.Log.trace(red(s), infos);
 	}
 
 	inline public static function traceGreen(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(green(s), infos);
+		haxe.Log.trace(green(s), infos);
 	}
 
 	inline public static function traceYellow(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(yellow(s), infos);
+		haxe.Log.trace(yellow(s), infos);
 	}
 
 	inline public static function traceBlue(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(blue(s), infos);
+		haxe.Log.trace(blue(s), infos);
 	}
 
 	inline public static function traceMagenta(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(magenta(s), infos);
+		haxe.Log.trace(magenta(s), infos);
 	}
 
 	inline public static function traceCyan(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(cyan(s), infos);
+		haxe.Log.trace(cyan(s), infos);
 	}
 }
