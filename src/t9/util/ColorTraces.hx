@@ -1,5 +1,7 @@
 package t9.util;
 
+import haxe.PosInfos;
+
 class ColorTraces
 {
 	inline public static var RED="\033[0;31m";
@@ -40,33 +42,33 @@ class ColorTraces
 		return '${CYAN}${s}${NC}';
 	}
 
-	inline public static function traceRed(s :Dynamic)
+	inline public static function traceRed(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(red(s));
+		trace(red(s), infos);
 	}
 
-	inline public static function traceGreen(s :Dynamic)
+	inline public static function traceGreen(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(green(s));
+		trace(green(s), infos);
 	}
 
-	inline public static function traceYellow(s :Dynamic)
+	inline public static function traceYellow(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(yellow(s));
+		trace(yellow(s), infos);
 	}
 
-	inline public static function traceBlue(s :Dynamic)
+	inline public static function traceBlue(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(blue(s));
+		trace(blue(s), infos);
 	}
 
-	inline public static function traceMagenta(s :Dynamic)
+	inline public static function traceMagenta(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(magenta(s));
+		trace(magenta(s), infos);
 	}
 
-	inline public static function traceCyan(s :Dynamic, ?infos : haxe.PosInfos)
+	inline public static function traceCyan(s :Dynamic, ?infos :PosInfos)
 	{
-		trace(cyan(s));
+		trace(cyan(s), infos);
 	}
 }
