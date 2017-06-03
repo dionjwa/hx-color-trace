@@ -10,7 +10,7 @@
     "contributors": [
         "dionjwa"
     ],
-    "releasenote": "Accept any object to trace",
-    "version": "0.0.4",
+    "releasenote": "Add missing haxe.PosInfos",
+    "version": "0.0.5",
     "name": "hx-color-trace"
 }

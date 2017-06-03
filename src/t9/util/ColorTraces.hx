@@ -65,7 +65,7 @@ class ColorTraces
 		trace(magenta(s));
 	}
 
-	inline public static function traceCyan(s :Dynamic)
+	inline public static function traceCyan(s :Dynamic, ?infos : haxe.PosInfos)
 	{
 		trace(cyan(s));
 	}
